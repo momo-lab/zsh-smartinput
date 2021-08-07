@@ -15,6 +15,7 @@ function __smartinput:widget:main {
 
 () {
   zle -N __smartinput:widget:main
+  local key
   for key in ${(k)__smartinput_rules}; do
     bindkey "$key" __smartinput:widget:main
   done
