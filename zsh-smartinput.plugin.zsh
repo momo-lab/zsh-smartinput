@@ -1,0 +1,1 @@
+smartinput.plugin.zsh
